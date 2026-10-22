@@ -1,0 +1,70 @@
+{
+  "feature_names": [
+    "amplitude_q50_over_rms",
+    "amplitude_q90_over_rms",
+    "amplitude_peak_over_rms",
+    "power_kurtosis",
+    "energy_top10_fraction",
+    "energy_first_half_fraction",
+    "spectrum_entropy",
+    "spectrum_flatness",
+    "spectrum_outside_target_band_fraction",
+    "tf_entropy_mean",
+    "tf_outside_band_mean",
+    "tf_time_energy_entropy",
+    "tf_ridge_motion",
+    "tf_ridge_linear_r2",
+    "proxy_coverage_fraction",
+    "proxy_longest_fraction",
+    "proxy_burst_count",
+    "public_band_tf_local_peak_count_mean",
+    "public_band_stationary_peak_energy_fraction",
+    "public_band_secondary_global_peak_power_ratio",
+    "small_hankel_normalized_entropy_effective_rank",
+    "small_hankel_top4_energy_fraction",
+    "small_hankel_largest_relative_gap_ranks1to8",
+    "small_hankel_temporal_top4_subspace_disagreement",
+    "coarse_nonzero_curvature_over_victim_slope",
+    "coarse_nonzero_vs_tone_log10_peak_power_ratio",
+    "coarse_nonzero_projection_energy_fraction",
+    "coarse_nonzero_four_block_complex_amplitude_consistency",
+    "jss_probe_residual_target_band_log10_peak_to_median_power",
+    "jss_probe_evidence_gated_target_proposal_count_fraction",
+    "jss_probe_single_chirp_projection_residual_energy_fraction",
+    "jss_probe_leading_target_four_block_amplitude_consistency"
+  ],
+  "feature_dimension": 32,
+  "method_order": [
+    "matrix_pencil",
+    "chirplet_ar",
+    "near_slope_specialist"
+  ],
+  "risk_head_order": [
+    "negative_sinr",
+    "catastrophe_nmse_gt1",
+    "weak_complex_distortion"
+  ],
+  "penalties": [
+    2.0,
+    0.0
+  ],
+  "training_chirps": 3456,
+  "validation_chirps": 1152,
+  "train_groups": 144,
+  "validation_groups": 48,
+  "risk_head_is_calibrated_probability": false,
+  "model_sha256": "a636707857bb6a6fcc7c5d284171722106d5b89620bb21c38f55f543a9fc6b84",
+  "source_model_sha256": "ef2da6688aaaae29f49a0bd81bbfe6b0d65821873d08f5fcb515ef1574bbe5e6",
+  "selected_composition": "robust_validated",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "sklearn": "1.5.1",
+    "joblib": "1.4.2"
+  },
+  "hidden_layers": [
+    32,
+    16
+  ],
+  "model_outputs": 9
+}

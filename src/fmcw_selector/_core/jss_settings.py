@@ -1,0 +1,2 @@
+"""Frozen support-probe configuration, from the existing JSS stage."""
+DEFAULT_CONFIG = dict(max_rate_hz_per_s=80000000000.0, min_rate_hz_per_s=1000000000.0, coarse_step_hz_per_s=2000000000.0, fft_oversampling=4, min_chirp_tone_power_ratio=1.35, min_explained_fraction=0.03, maximum_target_tones=10, maximum_outer_iterations=3, robust_iterations=8, huber_multiplier=2.5, target_peak_relative_power=0.0005, exact_final_fir=True)

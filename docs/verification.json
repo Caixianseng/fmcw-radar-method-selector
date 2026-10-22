@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "date": "2026-10-22",
+  "examples": [
+    {
+      "example": "mp.npz",
+      "choice": "MP",
+      "max_feature_error": 0.0,
+      "max_output_error": 0.0,
+      "max_cost_error": 0.0,
+      "single_selected_path_matches": true
+    },
+    {
+      "example": "car.npz",
+      "choice": "C-AR",
+      "max_feature_error": 0.0,
+      "max_output_error": 0.0,
+      "max_cost_error": 0.0,
+      "single_selected_path_matches": true
+    },
+    {
+      "example": "jss.npz",
+      "choice": "JSS",
+      "max_feature_error": 0.0,
+      "max_output_error": 0.0,
+      "max_cost_error": 0.0,
+      "single_selected_path_matches": true
+    }
+  ],
+  "receiver": [
+    {
+      "seed": 97028,
+      "geometry": false,
+      "all_four_ADC_components_match": true
+    },
+    {
+      "seed": 98000,
+      "geometry": true,
+      "all_four_ADC_components_match": true
+    }
+  ],
+  "standalone_imports": true,
+  "model_retrained": false,
+  "methods": [
+    "MP",
+    "C-AR",
+    "JSS"
+  ],
+  "features": 32,
+  "seconds": 8.33817459999409,
+  "cli_demo_passed": true,
+  "cli_high_rate_simulation_passed": true,
+  "training_entry_synthetic_smoke_passed": true,
+  "html_javascript_syntax_passed": true,
+  "no_test_engineering_published": true
+}

@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-22",
+  "files": [
+    {
+      "destination": "src/fmcw_selector/_core/configs/__init__.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/configs/__init__.py",
+      "source_sha256": "913d01300bbca5a21090501b28105bc9b72a0ed5544ab8cb0ec645c03b5ecf67",
+      "packaged_sha256": "1674b4fc2f2e93cd414a35e063e508663a3feb97d965fd4878052647bd3d806a"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/configs/algorithms.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/configs/algorithms.py",
+      "source_sha256": "5a3a0bfc41e78f12c7df36c8870a7bb61a9d84c5c98bcb3ac6cd3c15d3cc08cb",
+      "packaged_sha256": "7cd4195ca531c1c34124d1b81f3b5ef832bafdbbb56b6aafacb252df8a1f27e7"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/configs/budget.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/configs/budget.py",
+      "source_sha256": "39cfb195c00beb8ba051adc49a4b4fc10a68c75d7ca0446b6826572dab47a96c",
+      "packaged_sha256": "4bc994be0ad0b421cce3e03d9915255eb6a1973d13ec2903f7cc06d761ab5d45"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/configs/radar.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/configs/radar.py",
+      "source_sha256": "b8c699ea9bb09c0a065a5cc18f81afb65a3739a888f253a6f637b457dde15828",
+      "packaged_sha256": "bda839607fdea663313fd5ed0a4d47822dc76bc3f1350e06966ec3f29258954d"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/configs/traffic.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/configs/traffic.py",
+      "source_sha256": "9932cc50a829d640c79a32ce08fb5ae68c402cd8c24a08cf2fc99fe35a381c14",
+      "packaged_sha256": "f5cf4cbb1943b41090b8fd37dc787a558f1c32c1f36d1c5344bfce4f7228aa63"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/common/__init__.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/common/__init__.py",
+      "source_sha256": "e5b1322807bb33f9369acf6a9787018a81bd4ca87e4fd64e9361c28b9a5f8dae",
+      "packaged_sha256": "e5b1322807bb33f9369acf6a9787018a81bd4ca87e4fd64e9361c28b9a5f8dae"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/common/dsp.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/common/dsp.py",
+      "source_sha256": "871345a5d0cfe812634dfb3b328344e2a0b8f68551ef273cd2a5521e3c942619",
+      "packaged_sha256": "b2d95ca9348801aa292331d1c2a66bb232074fb4dc74c3816d1bb0a92cbb3e51"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/common/types.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/common/types.py",
+      "source_sha256": "c3f6de30a84d8454b2b3b492004a2e222fe7594ed7380b1f9620c96ce45cfd17",
+      "packaged_sha256": "02e517a808736f5211eb95cb78f538031bde8f8e5c640703c6c86752f81be128"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/__init__.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/__init__.py",
+      "source_sha256": "f3117cb6d33646bb02e36570c8fdbafcf8e02e91ef5b637afd06f85460926305",
+      "packaged_sha256": "f3117cb6d33646bb02e36570c8fdbafcf8e02e91ef5b637afd06f85460926305"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/frontend.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/frontend.py",
+      "source_sha256": "367b65302e739e0ba15d63f4d2629e1c90074fb94f061e60698b12b251002497",
+      "packaged_sha256": "367b65302e739e0ba15d63f4d2629e1c90074fb94f061e60698b12b251002497"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/occlusion.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/occlusion.py",
+      "source_sha256": "449779928c6982777c8ca2da4782f19b737a8ac5a00e7a21f02142110939ad4b",
+      "packaged_sha256": "449779928c6982777c8ca2da4782f19b737a8ac5a00e7a21f02142110939ad4b"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/propagation.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/propagation.py",
+      "source_sha256": "e6591911d2e2f27b28ce3b06c89a45931f0afc90c05d936f2a30aacb1db08eb0",
+      "packaged_sha256": "f37acc71cbb079c4ebcbfd6453bba91e13684309b9d40b8d212b6326de94cb3a"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/radar_clock.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/radar_clock.py",
+      "source_sha256": "112ba418b69bef00cd749eef4adb7d941e0f40eac32059b2e29261940d97d55c",
+      "packaged_sha256": "c02759a823f1552d39ed30c6b900cf125599700bc8ef3262f75acf99224f56c1"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/receiver.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/receiver.py",
+      "source_sha256": "7fbf322688d419ed39c3c858abd2148d9a3e6aa674be4ec2d12c2a7c474e882b",
+      "packaged_sha256": "7878dda0cb9092bf306a28229f7a6af67da81012a6c2f52b9d898ded1fb3d46f"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/scenarios.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/scenarios.py",
+      "source_sha256": "8a953a88ba37c816ff9deefccbc744b64dfccca8d681ca7c0bb2dbfcf8e54a7a",
+      "packaged_sha256": "e23def7877ac7b145c6cb120cf128a3c2b90b402e5d26d6844bfcedacddc08e1"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/session.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/session.py",
+      "source_sha256": "58fd27148ff605297e435d44f2e5d11f9d6f9789c856365a1f432bc3cf00bce8",
+      "packaged_sha256": "0ca0cb82d74a139f266f0fdb515bfb9a91aaa0a6e01331de3e862aa1e582642d"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/simulation/traffic.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/simulation/traffic.py",
+      "source_sha256": "9138b7ba2c8010fb30f3a23607ec26d15218d65540ad1dbf670cd3f1dd1ebd7b",
+      "packaged_sha256": "749f9eaf9126349e1392d0ab35b8d9538db5e8787f0590810ff4b1b86a60dc97"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/anti_interference/__init__.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/anti_interference/__init__.py",
+      "source_sha256": "85df6516d64ca47c5f598736090e8e066ef67cacf05e3979a50afbfde123890a",
+      "packaged_sha256": "85df6516d64ca47c5f598736090e8e066ef67cacf05e3979a50afbfde123890a"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/anti_interference/features.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/anti_interference/features.py",
+      "source_sha256": "6d58a53ed8aea414c0196d06f27060530882f2b60f3a86dc877f9b9828a352f9",
+      "packaged_sha256": "6d58a53ed8aea414c0196d06f27060530882f2b60f3a86dc877f9b9828a352f9"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/anti_interference/methods.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/anti_interference/methods.py",
+      "source_sha256": "313e428a9b6a8979f9a7c14f9bb180253b92c0cecaa87ba86c5b4e501826d514",
+      "packaged_sha256": "313e428a9b6a8979f9a7c14f9bb180253b92c0cecaa87ba86c5b4e501826d514"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/anti_interference/legacy_methods.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/anti_interference/legacy_methods.py",
+      "source_sha256": "811584b4bc8dd3e1dc338ed4ee81abb2be3a8d7eb5821ecdef26425eca999a7d",
+      "packaged_sha256": "811584b4bc8dd3e1dc338ed4ee81abb2be3a8d7eb5821ecdef26425eca999a7d"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/anti_interference/matrix_pencil.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/anti_interference/matrix_pencil.py",
+      "source_sha256": "17fc6bf354aefef622131b173f3166523ed0102fd9272475a46d6b18a1d5ec3a",
+      "packaged_sha256": "17fc6bf354aefef622131b173f3166523ed0102fd9272475a46d6b18a1d5ec3a"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/inspect_receiver.py",
+      "source": "新实验_近斜率专用方法_MLP/source_snapshot/inspect_receiver.py",
+      "source_sha256": "edde099c523d6378a8d35b9b91c9f8a50f27dcda9e26c8097d69efad6ec861cc",
+      "packaged_sha256": "76242eaf6f1a03a1d90fda4dfd135a5d9dfdf260d7efce858fcaf53a5177023d"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/mixed_scene.py",
+      "source": "新实验_近斜率专用方法_MLP/mixed_scene.py",
+      "source_sha256": "0560b5a3fa6b7151a7789fd1d6fd8f36f26e8bb1f71f700cf7ac022326ab6ebf",
+      "packaged_sha256": "deb6d575a43336d8546fb528eecb56341aa08c97e2028701eb1b2d883cd68387"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/chirplet_omp.py",
+      "source": "新实验_近斜率专用方法_MLP/chirplet_omp.py",
+      "source_sha256": "4e637a414521d29d4f0f20b1d6b6f1f0e33f6c489ade654b59480b39c7b87683",
+      "packaged_sha256": "4e637a414521d29d4f0f20b1d6b6f1f0e33f6c489ade654b59480b39c7b87683"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/features_enhanced.py",
+      "source": "新实验_近斜率专用方法_MLP/features_enhanced.py",
+      "source_sha256": "a9a2307864727a831483e31702079b25b5ece783132969d4105d132d3f07c449",
+      "packaged_sha256": "f0d7295257aecd5c1bf36da5cf01619922554e869b5e6bd9769bdc16a135e651"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/features_subspace.py",
+      "source": "新实验_近斜率专用方法_MLP/features_subspace.py",
+      "source_sha256": "4a2fc7e965b603c938a41185a2bdf7f19d273c3b5277596e668ee176b17bc874",
+      "packaged_sha256": "6ba9f9bf0a3b5271cb192629dd6c5e3f903cdbabfed5d6ecafb801a92e8fa10c"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/features_near_slope.py",
+      "source": "新实验_近斜率专用方法_MLP/features_near_slope.py",
+      "source_sha256": "16fc6a72e167e1e0f7d959dc11ecbb5afe3c7a460df30faf32bcb677fd59c0ae",
+      "packaged_sha256": "c82cc2e3c8f737cda93a57cf64db76cfc47950b304c01c60f6b1230a056c0d00"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/features_specialist_support.py",
+      "source": "新实验_近斜率专用方法_MLP/features_specialist_support.py",
+      "source_sha256": "27f556929baca572c5faa0c1e5b4ec13a65288ea5c63e6aa0e21a65a65627fb8",
+      "packaged_sha256": "5d1fee33333d609871a26c0d3651dc5b7253036196ecb14f5fd41b6de58bbebc"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/sinr_metrics.py",
+      "source": "新实验_近斜率专用方法_MLP/sinr_metrics.py",
+      "source_sha256": "69c40b685735ac4f0e87d4afad87ee7e6c2c05afc89266c0d28950cfb685a4f4",
+      "packaged_sha256": "69c40b685735ac4f0e87d4afad87ee7e6c2c05afc89266c0d28950cfb685a4f4"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/compact.py",
+      "source": "新实验_近斜率专用方法_MLP/feature_revision/compact.py",
+      "source_sha256": "96412a36ca7d9d9cf87b426244051983541581307584e176f6323878cbe42c34",
+      "packaged_sha256": "442ca5968d148ceb28c4fb4e29c5702e26c118d79ac4d35827a86656da59d818"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/mp_improved.py",
+      "source": "新实验_风险约束选择_MP_JSS_保真改进/algorithms/mp_improved.py",
+      "source_sha256": "d6d8db42246a24020e7f6e6a03c5b53637895f3c77cdebcf7ef04b41b4ac9ec3",
+      "packaged_sha256": "510ba71de9ecd96bedc541eb9de1d9ca82c659c13bfbeebb87f4779694ae3ec9"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/jss_improved.py",
+      "source": "新实验_风险约束选择_MP_JSS_保真改进/algorithms/jss_improved.py",
+      "source_sha256": "f302fd0db02e9d72544b69b128ff898c6961e0db9f2467072a59951cb0b21f7e",
+      "packaged_sha256": "0d41ba8e5231c38d76c6f9528bdad69a6e7434ed03329268eada6cdc2604749d"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/chirplet_observed_upgrade.py",
+      "source": "新实验_CAR改进验证_20261019/algorithms/chirplet_observed_upgrade.py",
+      "source_sha256": "8d9f40ba605312e69153a90345e89f0035f76a368aa8638c8601303521343819",
+      "packaged_sha256": "437dc10cd133f46d31a42171eb702cf44fcfd1a0e435f85080fe14fceecd8026"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/ar_observed_upgrade.py",
+      "source": "新实验_CAR改进验证_20261019/algorithms/ar_observed_upgrade.py",
+      "source_sha256": "8e3860687265516aa576c4903252fc53b2fa12ccd1bddf630d70661b5ef2eeed",
+      "packaged_sha256": "fb483f92e884dc144bd68f219756f064911b86a5d392db5df41d799f03f3a683"
+    },
+    {
+      "destination": "src/fmcw_selector/_core/metrics.py",
+      "source": "新实验_风险约束选择_MP_JSS_保真改进/metrics.py",
+      "source_sha256": "729f6fbde4e8095e440c6850b1de6816acf5634483085ce059606797991727b2",
+      "packaged_sha256": "2b4c5b06317089bcda9ed2820a3c3b070fb7120dc6edc9c170eba371c6c5cfcc"
+    }
+  ],
+  "migration": "Only module imports, relative paths and unused old selector wrappers changed; numerical functions/settings retained. Portable model serialized from frozen selected model; no retraining."
+}

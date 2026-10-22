@@ -1,0 +1,30 @@
+{
+  "schema_version": "six_radars_frozen_probability_probe_v1",
+  "total_interferer_count": 6,
+  "extreme_event_probability": 0.3333333333333333,
+  "event_sampling_unit": "session",
+  "conditional_extreme_source_choice": "uniform among the six active radar identities",
+  "sweep_times_us": [
+    74,
+    74.5,
+    74.9,
+    75.1,
+    75.5,
+    76
+  ],
+  "special_interferer": {
+    "bandwidth_hz": 300000000.0,
+    "slope_sign": 1.0,
+    "reference_time_s": 0.01,
+    "pressure_arrival_offset_s": 1e-06,
+    "pressure_period_s": 0.0001,
+    "pressure_drift_ppm": 0
+  },
+  "source_catalog_policy": "Allocate all seven latent radars/target phases, then choose six active identities independently of the session Bernoulli event. Disabled radar vehicle remains a target.",
+  "noise_mode": "scaled",
+  "noise_scale_db": -40.0,
+  "interference_max_range_m": 1000.0,
+  "simulation_sample_rate_hz": 2000000000.0,
+  "workers": 4,
+  "probability_interpretation": "Bernoulli(1/3) per unforced session; at most one near-slope source among six. Effective filtered interference is a separate diagnostic."
+}

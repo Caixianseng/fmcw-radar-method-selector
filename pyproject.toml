@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmcw-radar-method-selector"
+version = "1.0.0"
+description = "Observation-based MLP selection of MP, Chirplet-AR and JSS for FMCW radar interference mitigation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<2", "scipy>=1.13,<2", "scikit-learn>=1.5,<1.6", "joblib>=1.4,<2", "threadpoolctl>=3", "matplotlib>=3.9,<4"]
+
+[project.scripts]
+fmcw-selector = "fmcw_selector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fmcw_selector = ["data/*.joblib", "data/*.json", "_core/*.json"]

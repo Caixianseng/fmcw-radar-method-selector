@@ -1,0 +1,42 @@
+{
+  "scenario": "four_lane_random_radars",
+  "seed": 0,
+  "duration_s": 40.0,
+  "window_starts_s": [
+    0.0,
+    5.0,
+    10.0,
+    20.0,
+    30.0,
+    39.0
+  ],
+  "chirps_per_window": 64,
+  "radar_overrides": {
+    "noise_mode": "scaled",
+    "interference_max_range_m": 1000.0,
+    "noise_scale_db": -40.0
+  },
+  "interferer_overrides": {
+    "bandwidth_range": [
+      300000000.0,
+      300000000.0
+    ],
+    "duration_choices_s": [
+      2.5e-05,
+      0.000175
+    ],
+    "duration_choice_probs": [
+      0.75,
+      0.25
+    ],
+    "repeat_idle_s": 2.5e-05,
+    "slope_sign_probs": [
+      0.5,
+      0.5
+    ]
+  },
+  "signal_generation": {
+    "simulation_sample_rate_hz": 2000000000.0,
+    "noise_seed": 0
+  }
+}

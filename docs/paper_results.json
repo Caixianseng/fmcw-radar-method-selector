@@ -1,0 +1,88 @@
+{
+  "scope": "Frozen current three-candidate library; full confirmation cohorts, not the three demo examples.",
+  "source_dataset_sha256": "0e6b17b0764ae6a0e67752d49dfa95190804c9e05c6cb8d54f81853c68dfb0de",
+  "cohorts": {
+    "nominal": {
+      "sessions": 48,
+      "chirps": 1152,
+      "methods": {
+        "MP": {
+          "mean_sinr_db": 10.22448864008141,
+          "median_sinr_db": 5.674484811958322,
+          "q10_sinr_db": -14.852626381870868,
+          "mean_nmse": 39.32793056355212,
+          "q99_nmse": 921.8841863814934
+        },
+        "C-AR": {
+          "mean_sinr_db": 13.149529428351187,
+          "median_sinr_db": 14.204661812208943,
+          "q10_sinr_db": 2.1233549891534844,
+          "mean_nmse": 0.25135697800723267,
+          "q99_nmse": 1.4541945058700412
+        },
+        "JSS": {
+          "mean_sinr_db": -4.109803938292121,
+          "median_sinr_db": -9.218478590530308,
+          "q10_sinr_db": -22.086230144800876,
+          "mean_nmse": 57.26624400827716,
+          "q99_nmse": 819.4630719039542
+        },
+        "MLP": {
+          "mean_sinr_db": 19.56262799808545,
+          "median_sinr_db": 25.43011258192398,
+          "q10_sinr_db": 2.7349868566130637,
+          "mean_nmse": 0.1831771268660762,
+          "q99_nmse": 1.622423039675809
+        },
+        "offline_oracle": {
+          "mean_sinr_db": 19.92888850675643,
+          "median_sinr_db": 25.50442741886164,
+          "q10_sinr_db": 3.1470293789934654,
+          "mean_nmse": 0.15634406365302478,
+          "q99_nmse": 1.0179199287047689
+        }
+      }
+    },
+    "geometry": {
+      "sessions": 16,
+      "chirps": 384,
+      "methods": {
+        "MP": {
+          "mean_sinr_db": 14.517176852592598,
+          "median_sinr_db": 17.521183307857235,
+          "q10_sinr_db": -13.067334783860302,
+          "mean_nmse": 27.313996319145744,
+          "q99_nmse": 636.8654330059496
+        },
+        "C-AR": {
+          "mean_sinr_db": 13.699438207709392,
+          "median_sinr_db": 12.792275943567645,
+          "q10_sinr_db": 1.0405206248131331,
+          "mean_nmse": 0.3576087492982312,
+          "q99_nmse": 4.547763517683511
+        },
+        "JSS": {
+          "mean_sinr_db": -7.131251489449265,
+          "median_sinr_db": -9.17616020829932,
+          "q10_sinr_db": -22.950586390219986,
+          "mean_nmse": 65.76455690754347,
+          "q99_nmse": 763.0956709366407
+        },
+        "MLP": {
+          "mean_sinr_db": 19.78162757992952,
+          "median_sinr_db": 21.71151216045174,
+          "q10_sinr_db": 1.7119486506250465,
+          "mean_nmse": 0.2781882468496325,
+          "q99_nmse": 4.326984799562429
+        },
+        "offline_oracle": {
+          "mean_sinr_db": 20.404449558289386,
+          "median_sinr_db": 21.71151216045174,
+          "q10_sinr_db": 3.1598895159537497,
+          "mean_nmse": 0.2132803460485696,
+          "q99_nmse": 2.341620034266806
+        }
+      }
+    }
+  }
+}
