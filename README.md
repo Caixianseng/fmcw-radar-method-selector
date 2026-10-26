@@ -109,8 +109,4 @@ examples/                     三条实际论文 ADC 示例
 docs/                         复现边界、代码来源与核对记录
 ```
 
-没有捆绑未使用候选、MCA–SALSA、独立 Chirplet 动作、测试工程、第三方论文 PDF、论文 DOCX、旧模型或全部留出波形。`_core/anti_interference/methods.py` 保留现有检测器和 STFT 数值辅助函数的源码，部分辅助实现与早期 CFAR 共用，但不注册为选择器候选。
 
-来源与论文实现关系见 [方法来源说明](docs/method_sources.md)。此私有仓库未指定开源许可证。
-
-发布时数值配对核对见 [核对记录](docs/verification.json)，当前完整留出队列的必要结果摘要见 [论文结果摘要](docs/paper_results.json)。三条演示样例不用于估计总体平均性能。
